@@ -568,6 +568,7 @@ a:active {
 .main-navigation a {
 	display: block;
 	text-decoration: none;
+	padding: 41px 0;
 }
 
 .main-navigation ul ul {
