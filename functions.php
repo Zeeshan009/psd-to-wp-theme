@@ -111,6 +111,8 @@ function psd_to_wp_theme_scripts() {
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
+
+	wp_enqueue_script( 'psd-to-wp-theme-roboto', '//fonts.googleapis.com/css?family=Roboto:400,700,300' );
 }
 add_action( 'wp_enqueue_scripts', 'psd_to_wp_theme_scripts' );
 
