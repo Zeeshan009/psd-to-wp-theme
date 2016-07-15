@@ -544,10 +544,9 @@ a:active {
 ## Menus
 --------------------------------------------------------------*/
 .main-navigation {
-	clear: both;
 	display: block;
-	float: left;
-	width: 100%;
+	float: right;
+	width: 50%;
 }
 
 .main-navigation ul {
@@ -558,8 +557,9 @@ a:active {
 }
 
 .main-navigation li {
-	float: left;
+	float: right;
 	position: relative;
+	margin-left: 32px;
 }
 
 .main-navigation a {
